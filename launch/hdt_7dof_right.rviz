@@ -62,67 +62,32 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        index_dist:
+        shoulder:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        index_med:
+        shoulder_roll_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        index_prox:
+        arm:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link1:
+        elbow_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link2a:
+        forearm:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link2b:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link3:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link4a:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link4b:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link5:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link6a:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link6b:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link7:
+        foreforearm:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -132,37 +97,22 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        ring_dist:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ring_med:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ring_prox:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         thumb_base:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        thumb_dist:
+        thumb:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        thumb_med:
+        index:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        thumb_prox:
+        ring:
           Alpha: 1
           Show Axes: false
           Show Trail: false
