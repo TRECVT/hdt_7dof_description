@@ -46,20 +46,20 @@
 
 		<link name="${prefix}shoulder">
 			<collision>
-				<origin xyz="-0.06 0.134925 -1.04" rpy="0 0 0"/>
+				<origin xyz="-0 0.1275 -1.4534" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/ShoulderPitchRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 			</collision>
 			<visual>
-				<origin xyz="-0.06 0.134925 -1.04" rpy="0 0 0"/>
+				<origin xyz="-0 0.1275 -1.4534" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/ShoulderPitchRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 				<material name="${prefix}green"/>
 			</visual>
 			<inertial>
-			<origin xyz="0.000193283 -0.082497455 -0.00014774800000006" rpy="0 0 0"/>
+			<origin xyz="0.000693283 -0.082497455 -0.00011074799999999" rpy="0 0 0"/>
 			<mass value="1.344398311"/>
 				<inertia
 				ixx="0.002733115" ixy="-7.2667e-05" ixz="1.21e-07"
@@ -94,20 +94,20 @@
 
 		<link name="${prefix}shoulder_roll_link">
 			<collision>
-				<origin xyz="-0.06 0.297925 -1.04" rpy="0 0 0"/>
+				<origin xyz="-0 0.2905 -1.4534" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/ShoulderRollRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 			</collision>
 			<visual>
-				<origin xyz="-0.06 0.297925 -1.04" rpy="0 0 0"/>
+				<origin xyz="-0 0.2905 -1.4534" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/ShoulderRollRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 				<material name="${prefix}grey"/>
 			</visual>
 			<inertial>
-				<origin xyz="-0.000342503 6.628799999997e-05 -0.015055902" rpy="0 0 0"/>
+				<origin xyz="0.000157497 6.628799999997e-05 -0.015018902" rpy="0 0 0"/>
 				<mass value="0.709190454"/>
 				<inertia
 				ixx="0.000940092" ixy="-7e-09" ixz="1.865e-06"
@@ -142,23 +142,23 @@
 
 		<link name="${prefix}arm">
 			<collision>
-				<origin xyz="-0.06 0.297925 -1.04" rpy="0 0 0"/>
+				<origin xyz="-0 0.2905 -1.4534" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/ShoulderYawRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 			</collision>
 			<visual>
-				<origin xyz="-0.06 0.297925 -1.04" rpy="0 0 0"/>
+				<origin xyz="-0 0.2905 -1.4534" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/ShoulderYawRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 				<material name="${prefix}green"/>
 			</visual>
 			<inertial>
-				<origin xyz="-0.000500004 -0.00094170500000001 -0.209152474" rpy="0 0 0"/>
+				<origin xyz="-4e-09 -0.00094170500000001 -0.209115474" rpy="0 0 0"/>
 				<mass value="1.291829307"/>
 				<inertia
-				ixx="0.007190942" ixy="-0" ixz="0"
+				ixx="0.007190942" ixy="-1e-09" ixz="0"
 				iyy="0.007116565" iyz="0.000130703"
 				izz="0.000965322"/>
 			</inertial>
@@ -190,20 +190,20 @@
 
 		<link name="${prefix}elbow_link">
 			<collision>
-				<origin xyz="-0.06 0.297925 -0.7214" rpy="0 0 0"/>
+				<origin xyz="-0 0.2905 -1.1348" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/ElbowRight.stl"/>
 				</geometry>
 			</collision>
 			<visual>
-				<origin xyz="-0.06 0.297925 -0.7214" rpy="0 0 0"/>
+				<origin xyz="-0 0.2905 -1.1348" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/ElbowRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 				<material name="${prefix}grey"/>
 			</visual>
 			<inertial>
-				<origin xyz="0.014260471 0.00015822900000001 -7.5344000000088e-05" rpy="0 0 0"/>
+				<origin xyz="0.014760471 0.00015822899999995 -3.8344000000023e-05" rpy="0 0 0"/>
 				<mass value="0.923870693"/>
 				<inertia
 				ixx="0.000477001" ixy="-2.405e-06" ixz="-4.205e-06"
@@ -238,20 +238,20 @@
 
 		<link name="${prefix}forearm">
 			<collision>
-				<origin xyz="-0.06 0.297925 -0.7214" rpy="0 0 0"/>
+				<origin xyz="-0 0.2905 -1.1348" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/WristYawRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 			</collision>
 			<visual>
-				<origin xyz="-0.06 0.297925 -0.7214" rpy="0 0 0"/>
+				<origin xyz="-0 0.2905 -1.1348" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/WristYawRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 				<material name="${prefix}green"/>
 			</visual>
 			<inertial>
-				<origin xyz="0.144807207 0.00072781700000002 -9.623000000003e-05" rpy="0 0 0"/>
+				<origin xyz="0.204807207 -0.006697183 -0.41349623" rpy="0 0 0"/>
 				<mass value="0.988541571"/>
 				<inertia
 				ixx="0.000942865" ixy="-3.3796e-05" ixz="-5.48e-07"
@@ -286,20 +286,20 @@
 
 		<link name="${prefix}foreforearm">
 			<collision>
-				<origin xyz="-0.2671 0.297925 -0.7214" rpy="0 0 0"/>
+				<origin xyz="-0.2071 0.2905 -1.1348" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/WristPitchRollRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 			</collision>
 			<visual>
-				<origin xyz="-0.2671 0.297925 -0.7214" rpy="0 0 0"/>
+				<origin xyz="-0.2071 0.2905 -1.1348" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/WristPitchRollRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 				<material name="${prefix}grey"/>
 			</visual>
 			<inertial>
-				<origin xyz="0.036549556 6.1067999999997e-05 -6.0301000000096e-05" rpy="0 0 0"/>
+				<origin xyz="0.037049556 6.1067999999997e-05 -2.330099999992e-05" rpy="0 0 0"/>
 				<mass value="1.121564951"/>
 				<inertia
 				ixx="0.000543674" ixy="-4.334e-06" ixz="-4.323e-06"
@@ -334,37 +334,46 @@
 
 		<link name="${prefix}palm">
 			<collision>
-				<origin xyz="-0.3412 0.297925 -0.7214" rpy="0 0 0"/>
+				<origin xyz="-0.2812 0.2905 -1.1348" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/PalmRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 			</collision>
 			<visual>
-				<origin xyz="-0.3412 0.297925 -0.7214" rpy="0 0 0"/>
+				<origin xyz="-0.2812 0.2905 -1.1348" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/PalmRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 				<material name="${prefix}black"/>
 			</visual>
 			<inertial>
-				<origin xyz="0.133929446 0.595768038 0.005790192" rpy="0 0 0"/>
-				<mass value="1.926818336"/>
+				<origin xyz="0.140761601 3.6378999999975e-05 -0.005353851" rpy="0 0 0"/>
+				<mass value="1.198671739"/>
 				<inertia
-				ixx="0.003139529" ixy="1.9404e-05" ixz="0.000105065"
-				iyy="0.012087649" iyz="-2.2382e-05"
-				izz="0.009766738"/>
+				ixx="0.001160448" ixy="-2.545e-06" ixz="0.000215416"
+				iyy="0.003649101" iyz="-1.8e-07"
+				izz="0.002994866"/>
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}palm">
 			<material>Gazebo/Black</material>
 		</gazebo>
 
+		<!--gripper frame -->
+		<joint name="${prefix}gripper_frame_joint" type="fixed">
+			<origin xyz="0.13 0 0" rpy="0 0 0" />
+			<parent link="${prefix}palm" />
+			<child link="${prefix}gripper_frame" />
+		</joint>
+
+		<link name="${prefix}gripper_frame" />
+
 		<!-- thumb base -->
 		<joint name="${prefix}thumb_yaw" type="revolute">
 			<hdt id="10" kmin="5" kmax="20" inertia="0.01"/>
 			<axis xyz="1 0 0"/>
 			<limit effort="4.0" lower="-1.5707963267949" upper="1.5707963267949" velocity="4.1888"/>
-			<origin xyz="0.05039 0 0.01529" rpy="0 0 0"/>
+			<origin xyz="0.135483 0 0.0153" rpy="0 0 0"/>
 			<parent link="${prefix}palm"/>
 			<child link="${prefix}thumb_base"/>
 			<dynamics damping="0.7" friction="0.0"/>
@@ -382,20 +391,20 @@
 
 		<link name="${prefix}thumb_base">
 			<collision>
-				<origin xyz="-0.39159 0.297925 -0.73669" rpy="0 0 0"/>
+				<origin xyz="-0.416683 0.2905 -1.1501" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/ThumbMetacarpalRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 			</collision>
 			<visual>
-				<origin xyz="-0.39159 0.297925 -0.73669" rpy="0 0 0"/>
+				<origin xyz="-0.416683 0.2905 -1.1501" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/ThumbMetacarpalRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 				<material name="${prefix}grey"/>
 			</visual>
 			<inertial>
-				<origin xyz="0.208023874 4.4464999999994e-05 0.037354136" rpy="0 0 0"/>
+				<origin xyz="0.208523874 4.4464999999994e-05 0.037391136" rpy="0 0 0"/>
 				<mass value="0.180822173"/>
 				<inertia
 				ixx="7.244e-05" ixy="9e-09" ixz="4.69e-07"
@@ -412,7 +421,7 @@
 			<hdt id="11" kmin="5" kmax="20" inertia="0.01"/>
 			<axis xyz="0 1 0"/>
 			<limit effort="4.0" lower="-0.78539816339745" upper="1.5707963267949" velocity="4.1888"/>
-			<origin xyz="0.02759 0.00214 0.057" rpy="0 0 0"/>
+			<origin xyz="0 0.002143 0.0573" rpy="0 0 0"/>
 			<parent link="${prefix}thumb_base"/>
 			<child link="${prefix}thumb_link"/>
 			<dynamics damping="0.7" friction="0.0"/>
@@ -430,20 +439,20 @@
 
 		<link name="${prefix}thumb_link">
 			<collision>
-				<origin xyz="-0.41918 0.295785 -0.79369" rpy="0 0 0"/>
+				<origin xyz="-0.416683 0.288357 -1.2074" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/ThumbRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 			</collision>
 			<visual>
-				<origin xyz="-0.41918 0.295785 -0.79369" rpy="0 0 0"/>
+				<origin xyz="-0.416683 0.288357 -1.2074" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/ThumbRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 				<material name="${prefix}grey"/>
 			</visual>
 			<inertial>
-				<origin xyz="0.208463603 0.002125564 0.113374419" rpy="0 0 0"/>
+				<origin xyz="0.208963603 0.002125564 0.113411419" rpy="0 0 0"/>
 				<mass value="0.090676982"/>
 				<inertia
 				ixx="7.8687e-05" ixy="-1.3e-08" ixz="6.19e-07"
@@ -459,8 +468,8 @@
 		<joint name="${prefix}index" type="revolute">
 			<hdt id="12" kmin="5" kmax="20" inertia="0.01"/>
 			<axis xyz="0 0 1"/>
-			<limit effort="4.0" lower="1.5707963267949" upper="-1.5707963267949" velocity="4.1888"/>
-			<origin xyz="0.16325 0 0.02701" rpy="0 0 0"/>
+			<limit effort="4.0" lower="-0.78539816339745" upper="1.5707963267949" velocity="4.1888"/>
+			<origin xyz="0.218498 0 0.027" rpy="0 0 0"/>
 			<parent link="${prefix}palm"/>
 			<child link="${prefix}index_link"/>
 			<dynamics damping="0.7" friction="0.0"/>
@@ -478,20 +487,20 @@
 
 		<link name="${prefix}index_link">
 			<collision>
-				<origin xyz="-0.50445 0.297925 -0.74841" rpy="0 0 0"/>
+				<origin xyz="-0.499698 0.2905 -1.1618" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/PointerRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 			</collision>
 			<visual>
-				<origin xyz="-0.50445 0.297925 -0.74841" rpy="0 0 0"/>
+				<origin xyz="-0.499698 0.2905 -1.1618" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/PointerRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 				<material name="${prefix}grey"/>
 			</visual>
 			<inertial>
-				<origin xyz="0.333188919 -0.00061939700000002 0.026988814" rpy="0 0 0"/>
+				<origin xyz="0.333688919 -0.00061939700000002 0.027025814" rpy="0 0 0"/>
 				<mass value="0.090676982"/>
 				<inertia
 				ixx="9.743e-06" ixy="6.19e-07" ixz="-6.9e-08"
@@ -507,8 +516,8 @@
 		<joint name="${prefix}ring" type="revolute">
 			<hdt id="13" kmin="5" kmax="20" inertia="0.01"/>
 			<axis xyz="0 0 1"/>
-			<limit effort="4.0" lower="1.5707963267949" upper="-1.5707963267949" velocity="4.1888"/>
-			<origin xyz="0.16325 0 -0.02701" rpy="0 0 0"/>
+			<limit effort="4.0" lower="-0.78539816339745" upper="1.5707963267949" velocity="4.1888"/>
+			<origin xyz="0.218498 0 0.027" rpy="0 0 0"/>
 			<parent link="${prefix}palm"/>
 			<child link="${prefix}ring_link"/>
 			<dynamics damping="0.7" friction="0.0"/>
@@ -526,20 +535,20 @@
 
 		<link name="${prefix}ring_link">
 			<collision>
-				<origin xyz="-0.50445 0.297925 -0.69439" rpy="0 0 0"/>
+				<origin xyz="-0.499698 0.2905 -1.1618" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/RingRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 			</collision>
 			<visual>
-				<origin xyz="-0.50445 0.297925 -0.69439" rpy="0 0 0"/>
+				<origin xyz="-0.499698 0.2905 -1.1618" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://hdt_7dof_description/meshes/RingRight.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 				<material name="${prefix}grey"/>
 			</visual>
 			<inertial>
-				<origin xyz="0.333188919 -0.00061939700000002 0.026988814" rpy="0 0 0"/>
+				<origin xyz="0.333688919 -0.00061939700000002 -0.026984686" rpy="0 0 0"/>
 				<mass value="0.090676982"/>
 				<inertia
 				ixx="9.743e-06" ixy="6.19e-07" ixz="-6.9e-08"
