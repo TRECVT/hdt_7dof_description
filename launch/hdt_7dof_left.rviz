@@ -62,57 +62,57 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        shoulder:
+        l_shoulder:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        shoulder_roll_link:
+        l_shoulder_roll_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        arm:
+        l_arm:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        elbow_link:
+        l_elbow_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        forearm:
+        l_forearm:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        foreforearm:
+        l_foreforearm:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        palm:
+        l_palm:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        thumb_base:
+        l_thumb_base:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        thumb:
+        l_thumb:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        index:
+        l_index:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        ring:
+        l_ring:
           Alpha: 1
           Show Axes: false
           Show Trail: false
