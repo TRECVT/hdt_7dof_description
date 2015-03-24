@@ -102,17 +102,17 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        r_thumb:
+        r_thumb_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        r_index:
+        r_index_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        r_ring:
+        r_ring_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
