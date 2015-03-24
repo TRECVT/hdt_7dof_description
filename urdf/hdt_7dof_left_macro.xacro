@@ -406,10 +406,11 @@
 			<inertial>
 				<origin xyz="-0.001059126 -4.4464999999994e-05 0.022091136" rpy="0 0 0"/>
 				<mass value="0.180822173"/>
-				<inertia
+				<xacro:default_inertia />
+				<!-- <inertia
 				ixx="7.244e-05" ixy="-9e-09" ixz="4.69e-07"
 				iyy="6.6527e-05" iyz="-2.64e-07"
-				izz="4.7191e-05"/>
+				izz="4.7191e-05"/> -->
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}thumb_base">
@@ -456,10 +457,11 @@
 			<inertial>
 				<origin xyz="-0.00061939700000002 -1.6435999999953e-05 0.040811419" rpy="0 0 0"/>
 				<mass value="0.090676982"/>
-				<inertia
+				<xacro:default_inertia />
+				<!-- <inertia
 				ixx="7.8687e-05" ixy="-1.3e-08" ixz="6.19e-07"
 				iyy="7.5823e-05" iyz="-6.9e-08"
-				izz="9.743e-06"/>
+				izz="9.743e-06"/> -->
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}thumb_link">
@@ -504,10 +506,11 @@
 			<inertial>
 				<origin xyz="0.259588919 0.00061939700000002 0.027059686" rpy="0 0 0"/>
 				<mass value="0.090676982"/>
-				<inertia
+				<xacro:default_inertia />
+				<!-- <inertia
 				ixx="9.743e-06" ixy="-6.19e-07" ixz="6.9e-08"
 				iyy="7.8687e-05" iyz="-1.3e-08"
-				izz="7.5823e-05"/>
+				izz="7.5823e-05"/> -->
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}index_link">
@@ -552,10 +555,11 @@
 			<inertial>
 				<origin xyz="0.041090919 0.00061939700000002 4.9186000000034e-05" rpy="0 0 0"/>
 				<mass value="0.090676982"/>
-				<inertia
+				<xacro:default_inertia />
+				<!-- <inertia
 				ixx="9.743e-06" ixy="-6.19e-07" ixz="6.9e-08"
 				iyy="7.8687e-05" iyz="-1.3e-08"
-				izz="7.5823e-05"/>
+				izz="7.5823e-05"/> -->
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}ring_link">
