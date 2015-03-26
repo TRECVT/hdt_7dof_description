@@ -251,10 +251,10 @@
 				<material name="${prefix}green"/>
 			</visual>
 			<inertial>
-				<origin xyz="0.204807207 -0.006697183 -0.41349623" rpy="0 0 0"/>
+				<origin xyz="0.145307207 0.00072781699999996 -5.9229999999966e-05" rpy="0 0 0"/>
 				<mass value="0.988541571"/>
 				<inertia
-				ixx="0.000942865" ixy="-3.3796e-05" ixz="-5.48e-07"
+				ixx="0.000942865" ixy="3.3796e-05" ixz="-5.48e-07"
 				iyy="0.001532968" iyz="2.168e-06"
 				izz="0.001589516"/>
 			</inertial>
@@ -347,12 +347,12 @@
 				<material name="${prefix}black"/>
 			</visual>
 			<inertial>
-				<origin xyz="0.140761601 3.6378999999975e-05 -0.005353851" rpy="0 0 0"/>
-				<mass value="1.198671739"/>
+				<origin xyz="0.119004029 0.00010421999999999 -0.0047406059999999" rpy="0 0 0"/>
+				<mass value="1.473965218"/>
 				<inertia
-				ixx="0.001160448" ixy="-2.545e-06" ixz="0.000215416"
-				iyy="0.003649101" iyz="-1.8e-07"
-				izz="0.002994866"/>
+				ixx="0.001449269" ixy="-8.856e-06" ixz="0.000141321"
+				iyy="0.007077146" iyz="2.94e-07"
+				izz="0.006366035"/>
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}palm">

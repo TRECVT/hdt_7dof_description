@@ -347,12 +347,12 @@
 				<material name="${prefix}black"/>
 			</visual>
 			<inertial>
-				<origin xyz="0.140761601 3.6379000000031e-05 -0.005353851" rpy="0 0 0"/>
-				<mass value="1.198671739"/>
+				<origin xyz="0.119004029 -4.5050999999963e-05 -0.003953203" rpy="0 0 0"/>
+				<mass value="1.473965218"/>
 				<inertia
-				ixx="0.001160448" ixy="-2.545e-06" ixz="0.000215416"
-				iyy="0.003649101" iyz="-1.8e-07"
-				izz="0.002994866"/>
+				ixx="0.001459459" ixy="5.664e-06" ixz="8.297e-06"
+				iyy="0.007087323" iyz="-7.05e-07"
+				izz="0.006366048"/>
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}palm">
