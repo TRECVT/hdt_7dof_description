@@ -62,107 +62,57 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        index_dist:
+        r_shoulder:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        index_med:
+        r_shoulder_roll_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        index_prox:
+        r_arm:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link1:
+        r_elbow_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link2a:
+        r_forearm:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link2b:
+        r_foreforearm:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link3:
+        r_palm:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link4a:
+        r_thumb_base:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link4b:
+        r_thumb_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link5:
+        r_index_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link6a:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link6b:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        link7:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        palm:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ring_dist:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ring_med:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        ring_prox:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        thumb_base:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        thumb_dist:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        thumb_med:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        thumb_prox:
+        r_ring_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
