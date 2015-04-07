@@ -393,13 +393,13 @@
 			<collision>
 				<origin xyz="-0.416683 -0.2905 -1.1501" rpy="0 0 0"/>
 				<geometry>
-					<mesh filename="package://hdt_7dof_description/meshes/ThumbMetacarpalLeft.stl" scale="0.001 0.001 0.001"/>
+					<mesh filename="package://hdt_7dof_description/meshes/ThumbBaseLeft.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 			</collision>
 			<visual>
 				<origin xyz="-0.416683 -0.2905 -1.1501" rpy="0 0 0"/>
 				<geometry>
-					<mesh filename="package://hdt_7dof_description/meshes/ThumbMetacarpalLeft.stl" scale="0.001 0.001 0.001"/>
+					<mesh filename="package://hdt_7dof_description/meshes/ThumbBaseLeft.stl" scale="0.001 0.001 0.001"/>
 				</geometry>
 				<material name="${prefix}grey"/>
 			</visual>
