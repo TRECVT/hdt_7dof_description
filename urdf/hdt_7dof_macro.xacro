@@ -74,12 +74,12 @@
 				<material name="${prefix}green"/>
 			</visual>
 			<inertial>
-				<origin xyz="-0.04488 0 0" rpy="0 0 0"/>
-				<mass value="1.00775"/>
+				<origin xyz="0.000693283 ${reflect*0.082497455} -0.00011074799999999" rpy="0 0 0"/>
+				<mass value="1.344398311"/>
 				<inertia
-					ixx="0.00064952" ixy="0.0" ixz="0.0"
-					iyy="0.00104342" iyz="0.0"
-					izz="0.00104342"/>
+					ixx="0.002733115" ixy="${reflect*7.2667e-05}" ixz="1.21e-07"
+					iyy="0.001266353" iyz="${reflect*-1.541e-06}"
+					izz="0.002795463"/>
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}shoulder">
@@ -106,14 +106,7 @@
 				</geometry>
 				<material name="${prefix}black"/>
 			</visual>
-			<inertial>
-				<origin xyz="-0.04416876 0 0" rpy="0 0 0"/>
-				<mass value="0.66774822"/>
-				<inertia
-					ixx="0.00062987" ixy="0.0" ixz="0.0"
-					iyy="0.00091291" iyz="0.0"
-					izz="0.00110241"/>
-			</inertial>
+			<xacro:default_inertial/>
 		</link>
 		<gazebo reference="${prefix}shoulder_roll_bracket">
 			<material>Gazebo/Black</material>
@@ -155,12 +148,12 @@
 				<material name="${prefix}grey"/>
 			</visual>
 			<inertial>
-				<origin xyz="0 0 -0.02018105" rpy="0 0 0"/>
-				<mass value="0.69896"/>
+				<origin xyz="0.000157497 ${reflect*-6.628799999997e-05} -0.015018902" rpy="0 0 0"/>
+				<mass value="0.709190454"/>
 				<inertia
-					ixx="0.00088116" ixy="0.0" ixz="0.0"
-					iyy="0.00094182" iyz="0.0"
-					izz="0.00032992"/>
+					ixx="0.000940092" ixy="0" ixz="0"
+					iyy="0.000866608" iyz="${reflect*2.817e-06}"
+					izz="0.000365724"/>
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}shoulder_roll_motor">
@@ -203,12 +196,12 @@
 				<material name="${prefix}green"/>
 			</visual>
 			<inertial>
-				<origin xyz="0 0 -0.08013953" rpy="0 0 0"/>
-				<mass value="1.77733729"/>
+				<origin xyz="0 ${reflect*0.00094170500000001} -0.209115474" rpy="0 0 0"/>
+				<mass value="1.291829307"/>
 				<inertia
-					ixx="0.00450640" ixy="0.0" ixz="0.0"
-					iyy="0.00450640" iyz="0.0"
-					izz="0.00114447"/>
+					ixx="0.007190942" ixy="0" ixz="0"
+					iyy="0.007116565" iyz="${reflect*-0.000130703}"
+					izz="0.000965322"/>
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}upper_arm">
@@ -235,14 +228,7 @@
 				</geometry>
 				<material name="${prefix}black"/>
 			</visual>
-			<inertial>
-				<origin xyz="0 0 -0.04416876" rpy="0 0 0"/>
-				<mass value="0.66774822"/>
-				<inertia
-					ixx="0.00091291" ixy="0.0" ixz="0.0"
-					iyy="0.00110241" iyz="0.0"
-					izz="0.00062987"/>
-			</inertial>
+			<xacro:default_inertial/>
 		</link>
 		<gazebo reference="${prefix}elbow_pitch_bracket">
 			<material>Gazebo/Black</material>
@@ -284,12 +270,12 @@
 				<material name="${prefix}grey"/>
 			</visual>
 			<inertial>
-				<origin xyz="0 -0.02018105 0" rpy="0 0 0"/>
-				<mass value="0.69896279"/>
+				<origin xyz="0.014760471 0 -3.8344000000023e-05" rpy="0 0 0"/>
+				<mass value="0.923870693"/>
 				<inertia
-					ixx="0.00094182" ixy="0.0" ixz="0.0"
-					iyy="0.00032992" iyz="0.0"
-					izz="0.00088116"/>
+					ixx="0.000477001" ixy="0" ixz="-4.205e-06"
+					iyy="0.001214959" iyz="0"
+					izz="0.001118907"/>
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}elbow_pitch_motor">
@@ -332,12 +318,12 @@
 				<material name="${prefix}green"/>
 			</visual>
 			<inertial>
-				<origin xyz="0 -0.04487724 0" rpy="0 0 0"/>
-				<mass value="1.00775488"/>
+				<origin xyz="0.145307207 ${reflect*-0.00072781699999996} 0" rpy="0 0 0"/>
+				<mass value="0.988541571"/>
 				<inertia
-					ixx="0.00104342" ixy="0.0" ixz="0.0"
-					iyy="0.00064952" iyz="0.0"
-					izz="0.00104342"/>
+					ixx="0.000942865" ixy="${reflect*-3.3796e-05}" ixz="0"
+					iyy="0.001532968" iyz="0"
+					izz="0.001589516"/>
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}forearm">
@@ -364,14 +350,7 @@
 				</geometry>
 				<material name="${prefix}black"/>
 			</visual>
-			<inertial>
-				<origin xyz="0 -0.04112 0" rpy="0 0 0"/>
-				<mass value="0.50058"/>
-				<inertia
-					ixx="0.000580228" ixy="0.0" ixz="0.0"
-					iyy="0.000541503" iyz="0.0"
-					izz="0.000750977"/>
-			</inertial>
+			<xacro:default_inertial/>
 		</link>
 		<gazebo reference="${prefix}wrist_pitch_bracket">
 			<material>Gazebo/Black</material>
@@ -413,12 +392,12 @@
 				<material name="${prefix}grey"/>
 			</visual>
 			<inertial>
-				<origin xyz="0 -0.03855 0" rpy="0 0 0"/>
-				<mass value="0.99934"/>
+				<origin xyz="0.037049556 ${reflect*-6.1067999999997e-05} 0" rpy="0 0 0"/>
+				<mass value="1.121564951"/>
 				<inertia
-					ixx="0.001905243" ixy="0.0" ixz="0.0"
-					iyy="0.000474765" iyz="0.0"
-					izz="0.001905243"/>
+					ixx="0.000543674" ixy="${reflect*4.334e-06}" ixz="0"
+					iyy="0.002086265" iyz="0"
+					izz="0.002086264"/>
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}wrist_motors">
@@ -460,14 +439,7 @@
 				</geometry>
 				<material name="${prefix}black"/>
 			</visual>
-			<inertial>
-				<origin xyz="0 -0.01177 0" rpy="0 0 0"/>
-				<mass value="0.47608"/>
-				<inertia
-					ixx="0.000705091" ixy="0.0" ixz="0.0"
-					iyy="0.000537081" iyz="0.0"
-					izz="0.000534342"/>
-			</inertial>
+			<xacro:default_inertial/>
 		</link>
 		<gazebo reference="${prefix}wrist_yaw_bracket">
 			<material>Gazebo/Black</material>
@@ -495,12 +467,12 @@
 				<material name="${prefix}black"/>
 			</visual>
 			<inertial>
-				<origin xyz="0 -0.08326 -0.00539" rpy="0 0 0"/>
-				<mass value="0.56756"/>
+				<origin xyz="0.119004029 0 -0.0047406059999999" rpy="0 0 0"/>
+				<mass value="1.473965218"/>
 				<inertia
-					ixx="0.001727803" ixy="0.000001205" ixz="0.0"
-					iyy="0.000549457" iyz="-0.000101997"
-					izz="0.001418031"/>
+					ixx="0.001449269" ixy="${reflect*8.856e-06}" ixz="0.000141321"
+					iyy="0.007077146" iyz="${reflect*-2.94e-07}"
+					izz="0.006366035"/>
 			</inertial>
 		</link>
 		<gazebo reference="${prefix}palm">
