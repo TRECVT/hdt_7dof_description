@@ -50,7 +50,7 @@
         <!-- thumb base -->
         <joint name="${prefix}thumb_roll" type="revolute">
             <hdt id="${motor_base_id + 9}" kmin="5" kmax="20" inertia="0.01"/>
-            <axis xyz="0 -1 0"/>
+            <axis xyz="0 ${reflect*-1} 0"/>
             <limit effort="4.0" lower="-1.5708" upper="1.5708" velocity="4.1888"/>
             <origin xyz="0 -0.05039 0.01529" rpy="0 0 0"/>
             <parent link="${prefix}palm"/>
@@ -98,7 +98,7 @@
         <!-- thumb prox -->
         <joint name="${prefix}thumb_pitch" type="revolute">
             <hdt id="${motor_base_id + 10}" kmin="5" kmax="20" inertia="0.01"/>
-            <axis xyz="1 0 0"/>
+            <axis xyz="${reflect} 0 0"/>
             <limit effort="4.0" lower="-0.7854" upper="1.5708" velocity="4.1888"/>
             <origin xyz="0.00214 -0.02759 0.05700" rpy="0 0 0"/>
             <parent link="${prefix}thumb_base"/>
@@ -207,8 +207,8 @@
         <!-- index prox -->
         <joint name="${prefix}index_yaw" type="revolute">
             <hdt id="${motor_base_id + 11}" kmin="5" kmax="20" inertia="0.01"/>
-            <axis xyz="0 0 ${reflect*-1}"/>
-            <limit effort="4.0" lower="${left_only*-1.5708 + right_only*-0.7854}" upper="${left_only*0.7854 + right_only*1.5708}" velocity="4.1888"/>
+            <axis xyz="0 0 1"/>
+            <limit effort="4.0" lower="-0.7854" upper="1.5708" velocity="4.1888"/>
             <origin xyz="0 -0.16325 0.02701" rpy="0 ${left_only*3.1416} 0"/>
             <parent link="${prefix}palm"/>
             <child link="${prefix}index_prox"/>
@@ -316,8 +316,8 @@
         <!-- ring prox -->
         <joint name="${prefix}ring_yaw" type="revolute">
             <hdt id="${motor_base_id + 12}" kmin="5" kmax="20" inertia="0.01"/>
-            <axis xyz="0 0 ${reflect*-1}"/>
-            <limit effort="4.0" lower="${left_only*-1.5708 + right_only*-0.7854}" upper="${left_only*0.7854 + right_only*1.5708}" velocity="4.1888"/>
+            <axis xyz="0 0 1"/>
+            <limit effort="4.0" lower="-0.7854" upper="1.5708" velocity="4.1888"/>
             <origin xyz="0 -0.16325 -0.02701" rpy="0 ${left_only*3.1416} 0"/>
             <parent link="${prefix}palm"/>
             <child link="${prefix}ring_prox"/>
