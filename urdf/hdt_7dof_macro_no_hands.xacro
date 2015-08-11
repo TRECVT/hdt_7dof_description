@@ -476,7 +476,9 @@
 			<child link="${prefix}hand"/>
 		</joint>
 
-		<xacro:hdt_7dof_hand prefix="${prefix}" motor_base_id="${motor_base_id}" reflect="${reflect}" left_only="${left_only}" right_only="${right_only}" />
+    
+<!-- 		<xacro:hdt_7dof_hand prefix="${prefix}" motor_base_id="${motor_base_id}" reflect="${reflect}" left_only="${left_only}" right_only="${right_only}" /> -->
+    
 	</xacro:macro>
 </robot>
 
