@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="hdt_7dof" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+	<gazebo>
+		<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+			<robotNamespace>/hdt_7dof_right</robotNamespace>
+		</plugin>
+	</gazebo>
+
+	<!-- segment 0 -->
+	<link name="world" />
+
+	<xacro:include filename="$(find hdt_7dof_description)/urdf/hdt_7dof_macro_no_hands.xacro" />
+	<xacro:hdt_7dof_right parent="world" x="0" y="0" z="0" prefix="r_" motor_base_id="1" />
+</robot>
+
